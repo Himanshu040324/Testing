@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #FAF9F6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Box {
+/*     display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    height: 100vh;
+    width: 35vw;
+    background-color: aqua;
+    /* background-image: url(board\ cat.avif); */
+
+    background: 
+        linear-gradient(rgba(212, 208, 208, 0.5), rgba(161, 157, 157, 0.5)), /* Semi-transparent overlay */
+        url(board\ cat.avif) no-repeat center/cover;
+
+    margin: 2px;
+    padding: 10px;
+    border: 2px solid black;
+
+}
+
+.Box h2 {
+    text-align: center;
+    background-color: transparent;
+    height: 5vh;
+
+    font-family: "Playwrite IN", serif;
+    font-weight: bold;
+    font-optical-sizing: auto;
+}
+
+.information{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+
+    color: black;
+
+    font-family: "Playwrite IN", serif;
+    font-weight: bold;
+    font-optical-sizing: auto;
+}
